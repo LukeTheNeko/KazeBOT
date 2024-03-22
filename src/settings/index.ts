@@ -24,7 +24,7 @@ export async function onError(error: Error | any, client: Client<true>){
     }
     
     const embed = createEmbed({
-        color: settingsJson.colors.danger,
+        color: settingsJson.colors.theme.danger,
         author: createEmbedAuthor({ user }),
         description: codeBlock("ts", brBuilder(...errorMessage)),
     });
