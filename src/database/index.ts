@@ -20,3 +20,6 @@ export const db = {
 
 export type GuildSchema = InferSchemaType<typeof guildSchema>;
 export type MemberSchema = InferSchemaType<typeof memberSchema>;
+
+export * from "./functions/register.js";
+export * from "./functions/economy.js";

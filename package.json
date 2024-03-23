@@ -1,5 +1,5 @@
 {
-  "name": "kazebot",
+  "name": "dcmongodb",
   "type": "module",
   "main": "dist/index.js",
   "license": "MIT",

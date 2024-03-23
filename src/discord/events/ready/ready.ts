@@ -2,7 +2,7 @@ import { Event } from "#base";
 import { ActivityType } from "discord.js";
 
 const activityMessages = [
-    "jogando Minecraft",
+    "Matando o Ender Dragon.",
 ];
 
 export default new Event({

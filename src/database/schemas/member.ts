@@ -7,7 +7,7 @@ export const memberSchema = new Schema(
         guildId: t.string,
         wallet: {
             coins: { type: Number, default: 0 },
-        }
+        },
     },
     {
         statics: {
