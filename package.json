@@ -1,8 +1,15 @@
 {
-  "name": "dcmongodb",
+  "name": "kazebot",
   "type": "module",
   "main": "dist/index.js",
+  "version": "1.2.0",
+  "author": "LukeTheNeko",
   "license": "MIT",
+  "keywords": [
+    "discord",
+    "bot",
+    "mongoose"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsx --env-file .env ./src/index.ts",
@@ -13,16 +20,16 @@
     "start:dev": "node --env-file .env.development ."
   },
   "dependencies": {
-    "@magicyan/discord": "^1.0.22",
+    "@magicyan/discord": "^1.0.32",
     "@napi-rs/canvas": "^0.1.51",
     "axios": "^1.6.8",
     "chalk": "^5.3.0",
     "consola": "^3.2.3",
-    "discord.js": "^14.14.1",
+    "discord.js": "^14.15.2",
     "fast-glob": "^3.3.2",
     "mongoose": "^8.2.0",
     "starlightskinapi": "^1.0.10",
-    "zod": "^3.22.4"
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/node": "^20.11.30",
